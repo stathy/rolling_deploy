@@ -226,9 +226,9 @@ Some examples, rolling deployment in flight across 3 legs of varying size and co
 License and Author
 ==================
 
-Author:: cookbooks@getchef.com
+Author:: Chef <cookbooks@getchef.com>
 
-CreatedBy:: Stathy Touloumis (<stathy@opscode.com>)
+CreatedBy:: Stathy Touloumis (<stathy@getchef.com>)
 
 Copyright:: 2014, Chef, Inc 
 
