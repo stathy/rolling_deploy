@@ -36,7 +36,7 @@ Platforms
 The list of platforms should not be limited since the code does not access any system information or configuration
 but is used internally by Chef to drive configuration change of other resources.
 
-Opscode Cookbooks
+Chef Cookbooks
 -----------------
 
 Other cookbooks can be used with this cookbook but they are not explicitly required. A good example of useage can be seen
