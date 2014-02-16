@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      function drawTable() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Node');
+        data.addColumn('string', 'App and Version');
+        data.addColumn('number', 'Leg');
+        data.addColumn('boolean', 'Status');
+        data.addColumn('string', 'Installed At');
+        data.addColumn('string', 'Last Check-in');
+        data.addRows([
+          ['t1',  's v62342..', 1, true,  'Mar 3 2013 09:25:23', '09:25:45'],
+          ['t2',  's v62342..', 2, false, '',                    '09:25:35'],
+          ['t2',  's v62342..', 3, false, '',                    '09:25:55'],
+        ]);
+
+        var table = new google.visualization.Table(document.getElementById('table_div'));
+        table.draw(data, {showRowNumber: true});
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id='table_div'></div>
+  </body>
+</html>

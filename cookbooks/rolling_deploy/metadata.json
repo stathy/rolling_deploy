@@ -1,0 +1,41 @@
+{
+  "name": "rolling_deploy",
+  "version": "0.20.0",
+  "description": "Rolling deployment resources for system and application configuration change.",
+  "long_description": "Description\n===========\n\nThis cookbook is used to create a rolling deployment of change within an environment by containing sections of the environment called legs and chaining the deployment between legs and the nodes within each leg. The concept is to reduce risk of change by trickling change into an environment and accelerating release based on success of previous 'legs'. For example: 1 -> [2,3,4] -> [5,6,7,8,9,10,11,12] -> [13 .. rest]",
+  "maintainer": "Opscode, Inc.",
+  "maintainer_email": "cookbooks@opscode.com",
+  "license": "Opscode, Inc.",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "redhat": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "fedora": ">= 0.0.0",
+    "oracle": ">= 0.0.0",
+    "suse": ">= 0.0.0",
+    "freebsd": ">= 0.0.0",
+    "openbsd": ">= 0.0.0",
+    "mac_os_x": ">= 0.0.0",
+    "mac_os_x_server": ">= 0.0.0",
+    "windows": ">= 0.0.0"
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "groupings": {
+  },
+  "attributes": {
+  },
+  "recommendations": {
+  },
+  "dependencies": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "recipes": {
+  }
+}
