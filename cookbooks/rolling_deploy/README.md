@@ -207,6 +207,8 @@ end
 Reporting and Monitoring
 =====
 
+See [rolling_deploy repo](https://github.com/stathy/rolling_deploy)
+
 Curses based status can be retrieved using utilities in "bin" folder. These leverage a template library called 'liquid'.
 
     gem install liquid --no-rdoc --no-ri
@@ -226,11 +228,11 @@ Some examples, rolling deployment in flight across 3 legs of varying size and co
 License and Author
 ==================
 
-Author:: Chef <cookbooks@getchef.com>
+Author:: Stathy <stathy@stathy.com>
 
-CreatedBy:: Stathy Touloumis (<stathy@getchef.com>)
+CreatedBy:: Stathy Touloumis (<stathy@stathy.com>)
 
-Copyright:: 2014, Chef, Inc 
+Copyright:: 2014, Stathy, Inc 
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

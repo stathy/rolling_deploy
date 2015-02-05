@@ -1,11 +1,11 @@
 #
-# Author:: cookbooks@opscode.com
-# CreatedBy:: Stathy Touloumis <stathy@opscode.com>
+# Author:: cookbooks@chef.io
+# CreatedBy:: Stathy Touloumis <stathy@chef.io>
 #
 # Cookbook Name:: rolling_deploy
 # Resource:: artifact
 #
-# Copyright:: 2014, Chef, Inc
+# Copyright:: 2014, Stathy, Inc
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.

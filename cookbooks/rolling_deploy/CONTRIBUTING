@@ -1,6 +1,6 @@
 If you would like to contribute, please open a ticket in JIRA:
 
-* http://tickets.opscode.com
+* http://tickets.chef.io
 
 Create the ticket in the COOK project and use the cookbook name as the
 component.
@@ -8,7 +8,7 @@ component.
 For all code contributions, we ask that contributors sign a
 contributor license agreement (CLA). Instructions may be found here:
 
-* http://wiki.opscode.com/display/chef/How+to+Contribute
+* http://wiki.chef.io/display/chef/How+to+Contribute
 
 When contributing changes to individual cookbooks, please do not
 modify the version number in the metadata.rb. Also please do not
