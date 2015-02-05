@@ -22,6 +22,11 @@
 
 class RollingDeployNodeError < StandardError; end
 
+if Chef::Config[:solo]
+  Chef::Log.error("This recipe uses search. Chef Solo does not support search.")
+  raise RollingDeployNodeError
+end
+
 action :success do
 
   if node['apps'][@new_resource.app_name]['rolling_deploy']['installed'].eql?(@new_resource.desired) then

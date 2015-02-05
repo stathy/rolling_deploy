@@ -29,8 +29,8 @@ begin
   Kitchen::RakeTasks.new
 
   desc 'Alias for kitchen:all'
-  task :integration => 'kitchen:all'
-  task :test_all => [:test, :integration]
+  task :support => 'kitchen:all'
+  task :test_all => [:test, :support]
 rescue LoadError
   puts '>>>>> Kitchen gem not loaded, omitting tasks' unless ENV['CI']
 end

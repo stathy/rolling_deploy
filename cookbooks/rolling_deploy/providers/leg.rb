@@ -22,6 +22,11 @@
 
 class RollingDeployLegError < StandardError; end
 
+if Chef::Config[:solo]
+  Chef::Log.error("This recipe uses search. Chef Solo does not support search.")
+  raise RollingDeployLegError
+end
+
 action :tag do
 
   rd_boot_attr = node['apps'][@new_resource.app_name]['rolling_deploy']['bootstrap_group']

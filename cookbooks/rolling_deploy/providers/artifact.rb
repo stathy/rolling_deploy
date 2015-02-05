@@ -37,6 +37,11 @@ require 'digest'
 require 'fileutils'
 require 'json'
 
+if Chef::Config[:solo]
+  Chef::Log.error("This recipe uses search. Chef Solo does not support search.")
+  raise RollingDeployArtifactError
+end
+
 action :deploy do
   if @new_resource.artifact_path.nil? || @new_resource.desired.nil? then
 # Since these are data driven, it's possible we are just bootstrapping monitor node
